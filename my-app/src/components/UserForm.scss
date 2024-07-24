@@ -1,0 +1,24 @@
+// src/components/UserForm.scss
+.user-form {
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+
+    input,
+    button {
+      padding: 10px;
+      margin: 5px 0;
+      font-size: 1em;
+    }
+    button {
+      background-color: #1e1e2f;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+.choose-file {
+  background-color: aqua;
+}
